@@ -486,6 +486,13 @@ class GoProHero:
         },
         'delete_all': {
             'cmd': 'camera/DA'
+        },
+        'spotmeter': {
+            'cmd': 'camera/EX',
+            'translate': {
+                'off': '00',
+                'on': '01'
+            }
         }
     }
 
